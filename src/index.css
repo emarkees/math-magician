@@ -26,7 +26,21 @@ code {
     monospace;
 }
 
+:root {
+  --primary: rgb(243, 148, 111);
+  --gray: rgb(172, 167, 167);
+  --darkGray: #485461;
+  --darkenGray: #c9d3dd2d;
+  --whaite: #fff;
+}
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 30rem;
+  padding: 0;
+}
 
 .container {
   align-items: center;
