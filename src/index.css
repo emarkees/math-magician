@@ -14,6 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 code {
@@ -24,4 +27,95 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+:root {
+  --primary: rgb(243, 148, 111);
+  --gray: rgb(172, 167, 167);
+  --darkGray: #485461;
+  --darkenGray: #c9d3dd2d;
+  --white: #ece9e9;
+  --light-gray: #acc6e2;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  background-color: var(--darkGray);
+  background-image: linear-gradient(315deg, #acc6e2 0%, #2c3e57 74%);
+}
+
+.screen {
+  height: 3.5rem;
+  width: 100%;
+  color: var(--white);
+  padding: 0 1rem;
+  background-color: var(--darkenGray);
+}
+
+.screen-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--white);
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.buttonBox {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 0.5fr);
+  grid-template-rows: repeat(1, 1fr);
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  background-color: var(--gray);
+  font-size: 24px;
+  width: 4.5rem;
+  height: 3rem;
+  color: rgb(255, 255, 255);
+  border: 0.01rem solid var(--white);
+  align-items: center;
+}
+
+.zero {
+  display: flex;
+  width: 9rem;
+}
+
+.orange {
+  background-color: var(--primary);
+}
+
+.color-bg {
+  background-color: var(--gray);
+}
+
+.button {
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.bttn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  height: auto;
 }
