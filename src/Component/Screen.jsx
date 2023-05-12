@@ -10,4 +10,7 @@ const Screen = ({ value }) => (
   </div>
 );
 
+Screen.propTypes = {
+  value: PropTypes.instanceOf(Object).isRequired,
+};
 export default Screen;
