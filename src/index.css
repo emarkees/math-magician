@@ -54,7 +54,7 @@ code {
 
 .screen {
   height: 3.5rem;
-  width: 100%;
+  width: 18rem;
   color: var(--white);
   padding: 0 1rem;
   background-color: var(--darkenGray);
