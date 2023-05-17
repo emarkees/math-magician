@@ -1,0 +1,10 @@
+.quote {
+  display: flex;
+  padding: 0.5rem;
+  height: 15rem;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: var(--darkenGray);
+  font-family: Robot, "san-sherif";
+  font-size: 1.2rem;
+}
