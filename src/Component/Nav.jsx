@@ -7,7 +7,7 @@ const Nav = () => (
     <div className="header">Math Magician</div>
     <ul className="link">
       <li>
-        <Link to="/Home" className="font">Home</Link>
+        <Link to="/" className="font">Home</Link>
       </li>
       |
       <li>
