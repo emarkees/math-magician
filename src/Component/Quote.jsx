@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Quote.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState(null);
@@ -17,7 +18,6 @@ const Quote = () => {
         headers.append('X-Api-Key', API_KEY);
         const response = await fetch(API_URL, { headers });
         const data = await response.json();
-        console.log(data);
         if (data.length > 0) {
           setQuote(data[0]);
         } else {
@@ -50,15 +50,20 @@ const Quote = () => {
       {quote && (
         <blockquote>
           <p>
-            Qoute:
-            <span />
+            Quote:
+            <span>&nbsp;</span>
             {quote.quote}
           </p>
           <p>
             Category:
+            <span>&nbsp;</span>
             {quote.category}
           </p>
-          <footer>{quote.author}</footer>
+          <footer>
+            author:
+            <span>&nbsp;</span>
+            {quote.author}
+          </footer>
         </blockquote>
       )}
     </div>
