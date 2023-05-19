@@ -18,7 +18,6 @@ const Quote = () => {
         headers.append('X-Api-Key', API_KEY);
         const response = await fetch(API_URL, { headers });
         const data = await response.json();
-        console.log(data);
         if (data.length > 0) {
           setQuote(data[0]);
         } else {

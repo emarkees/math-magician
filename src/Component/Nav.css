@@ -10,6 +10,7 @@
   height: 5rem;
   justify-content: space-between;
   align-items: center;
+  background-image: url(../assets/header-math.jpg);
 }
 
 .header {
