@@ -1,0 +1,10 @@
+.quote {
+  display: flex;
+  height: 18rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  background-image: url(../assets/backgroundbg.jpg);
+  font-family: myFont, sans-serif;
+  font-size: 1.2rem;
+  color: #0f0f0fe3;
+}
