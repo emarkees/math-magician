@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](Coming Soon)
+- [Live Demo Link](https://mathematical-calculator-06bp.onrender.com/Quote)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
